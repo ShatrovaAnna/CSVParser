@@ -9,7 +9,7 @@ int main() {
 
 	ifstream file;
 
-	file.open("in.csv", ios::in);
+	file.open("in.txt", ios::in);
 
 	if (!file.is_open())
 	{
